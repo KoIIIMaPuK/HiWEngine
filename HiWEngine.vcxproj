@@ -139,6 +139,7 @@ sfml-audio-d.lib;sfml-system-d.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EInputController.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
   </ItemGroup>
@@ -156,7 +157,11 @@ sfml-audio-d.lib;sfml-system-d.lib</AdditionalDependencies>
     <None Include="sfml-window-d-2.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="Menu.h" />
+=======
+    <ClInclude Include="EInputController.h" />
+>>>>>>> ef7dd52418383bc864df69ad6c48a66ac22f9661
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

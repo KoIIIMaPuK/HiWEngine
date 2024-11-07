@@ -18,22 +18,53 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Menu.cpp">
+=======
+    <ClCompile Include="EInputController.cpp">
+>>>>>>> ef7dd52418383bc864df69ad6c48a66ac22f9661
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="openal32.dll" />
-    <None Include="sfml-audio-2.dll" />
-    <None Include="sfml-audio-d-2.dll" />
-    <None Include="sfml-graphics-2.dll" />
-    <None Include="sfml-graphics-d-2.dll" />
-    <None Include="sfml-network-2.dll" />
-    <None Include="sfml-network-d-2.dll" />
-    <None Include="sfml-system-2.dll" />
-    <None Include="sfml-system-d-2.dll" />
-    <None Include="sfml-window-2.dll" />
-    <None Include="sfml-window-d-2.dll" />
+    <None Include="openal32.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-audio-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-audio-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-graphics-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-graphics-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-network-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-network-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-system-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-system-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-window-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-window-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EInputController.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">

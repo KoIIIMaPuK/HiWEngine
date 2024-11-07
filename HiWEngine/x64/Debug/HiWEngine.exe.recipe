@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\Admin\Desktop\ENGINE\HiWEngine\x64\Debug\HiWEngine.exe</FullPath>
+=======
+      <FullPath>D:\ProjectEngineFolder\HiWEngine\x64\Debug\HiWEngine.exe</FullPath>
+>>>>>>> ef7dd52418383bc864df69ad6c48a66ac22f9661
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

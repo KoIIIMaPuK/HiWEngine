@@ -1,4 +1,22 @@
+// +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+//
+//  С/C++ Библиотеки
+//
+// +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+#include <iostream>
+#include <iostream>
+#include <cstdlib>
+
+
+
+
+// +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+//
+// SFML Библиотеки
+//
+// +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 #include <SFML/Graphics.hpp>
+
 #include "Menu.h"
 #include <iostream>
 #include <SFML/Audio.hpp>
@@ -27,10 +45,19 @@ void creater2();
 void EngineStart();
 void Options();
 void About_Engine();
+#include <SFML/Network.hpp>
+#include <SFML/Window.hpp>
+#include <SFML/Audio.hpp>
+
+constexpr unsigned short WINDOW_HEIGHT  = 720;      // Высота окна
+constexpr unsigned short WINDOW_WIDTH   = 1280;	    // Ширина окна 
+
+
 
 
 int main()
 {
+
     sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "SFML works!",Style::Default );
 
     //window.setMouseCursorVisible(false);
@@ -68,6 +95,16 @@ int main()
     Text Version;
     Version.setFont(font);
     InitText(Version, 1520, 980, L"V 0.0.0.3", 100, Color(0, 114, 187), 3);
+
+
+
+
+
+
+
+
+
+
 
     while (window.isOpen())
     {
@@ -165,6 +202,11 @@ void EngineStart()
     if (!texture_play.loadFromFile("C:/Users/Admin/Desktop/image.png")) exit(1);
     background_play.setTexture(&texture_play);
 
+        window.display();
+    }
+   
+
+
 
 
 
@@ -183,7 +225,7 @@ void EngineStart()
         while (Play.pollEvent(event_play))
         {
             if (event_play.type == Event::KeyPressed)
-            {
+            {   
                 if (event_play.key.code == Keyboard::Escape) { Play.close(); }
             }
         }
@@ -274,3 +316,7 @@ void About_Engine()
     }
 }
 
+
+
+    return EXIT_SUCCESS; // Конец ;) https://www.youtube.com/watch?v=6EXB2Of1zLY
+}
