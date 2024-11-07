@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  EInputController.cpp
+  main.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка D:\ProjectEngineFolder\HiWEngine\x64\Debug\HiWEngine.exe при последней инкрементной компоновке; выполняется полная компоновка
   HiWEngine.vcxproj -> D:\ProjectEngineFolder\HiWEngine\x64\Debug\HiWEngine.exe
