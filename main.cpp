@@ -151,7 +151,7 @@ void creater1()
     if (!texture_opt.loadFromFile("C:/Users/Admin/Desktop/images.jpg")) exit(3);
 
     background_opt.setTexture(&texture_opt);
-    while (ARR.isOpen())
+    while (ARR.isOpen())    
     {
         Event event_opt;
         while (ARR.pollEvent(event_opt))
