@@ -26,7 +26,9 @@ namespace Engine {
 		sf::RenderWindow& mywindow;
 
 	public:
-		Menu(sf::RenderWindow& window, float menux, float menuy, sf::String name[], int sizeFont = 60, int step = 80);
+	
+		Menu(sf::RenderWindow& window, float menux, float menuy, sf::String name[], int numItems, int sizeFont = 60, int step = 80);
+
 
 
 		~Menu()

@@ -36,17 +36,18 @@ void Engine::Menu::Aligmenu(int posx)
 	}
 
 }
-Engine::Menu::Menu(sf::RenderWindow& window, float menux, float menuy, sf::String name[], int sizeFont, int step)
-	:mywindow(window), menu_X(menux), menu_Y(menuy), size_font(sizeFont), menu_step(step)
+Engine::Menu::Menu(sf::RenderWindow& window, float menux, float menuy, sf::String name[], int numItems, int sizeFont, int step)
+	: mywindow(window), menu_X(menux), menu_Y(menuy), size_font(sizeFont), menu_step(step)
 {
 	if (!font.loadFromFile("C:/Users/Admin/Desktop/Arial/arialmt.ttf")) exit(32);
-	max_menu = name->getSize() - 1;
-	mainMenu = new sf::Text[name->getSize()];
+	max_menu = numItems;  // Используйте переданное количество элементов
+	mainMenu = new sf::Text[max_menu];  // Создайте массив нужного размера
 
-	for (int i = 0, ypos = menu_Y; i < max_menu; i++, ypos += menu_step) setInitText(mainMenu[i], name[i], menu_X, ypos);
+	for (int i = 0, ypos = menu_Y; i < max_menu; i++, ypos += menu_step) {
+		setInitText(mainMenu[i], name[i], menu_X, ypos);
+	}
 	mainMenuSelected = 0;
 	mainMenu[mainMenuSelected].setFillColor(sf::Color::Yellow);
-
 }
 void Engine::Menu::MoveUp()
 {

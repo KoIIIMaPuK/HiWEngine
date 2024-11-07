@@ -1,15 +1,14 @@
 ﻿  main.cpp
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(33,17): warning C4244: инициализация: преобразование "unsigned int" в "float", возможна потеря данных
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(34,18): warning C4244: инициализация: преобразование "unsigned int" в "float", возможна потеря данных
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(117,54): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,105): warning C4244: аргумент: преобразование "unsigned int" в "T", возможна потеря данных
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,105): warning C4244:         with
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,105): warning C4244:         [
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,105): warning C4244:             T=float
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,105): warning C4244:         ]
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,70): warning C4244: аргумент: преобразование "unsigned int" в "T", возможна потеря данных
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,70): warning C4244:         with
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,70): warning C4244:         [
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,70): warning C4244:             T=float
-C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(156,70): warning C4244:         ]
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(37,17): warning C4244: инициализация: преобразование "unsigned int" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(38,18): warning C4244: инициализация: преобразование "unsigned int" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,105): warning C4244: аргумент: преобразование "unsigned int" в "T", возможна потеря данных
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,105): warning C4244:         with
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,105): warning C4244:         [
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,105): warning C4244:             T=float
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,105): warning C4244:         ]
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,70): warning C4244: аргумент: преобразование "unsigned int" в "T", возможна потеря данных
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,70): warning C4244:         with
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,70): warning C4244:         [
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,70): warning C4244:             T=float
+C:\Users\Admin\Desktop\ENGINE\HiWEngine\main.cpp(225,70): warning C4244:         ]
   HiWEngine.vcxproj -> C:\Users\Admin\Desktop\ENGINE\HiWEngine\x64\Debug\HiWEngine.exe
