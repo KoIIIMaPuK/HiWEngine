@@ -3,7 +3,6 @@
     #include <iostream>
     #include <SFML/Window.hpp>
     #include <SFML/System.hpp>
-    #include "EInputController.h"
 
 class EUIController
 {
@@ -15,7 +14,6 @@ private:
     sf::RenderWindow button_window;
     sf::Text buttonText;
     sf::Font font;
-    EInputController object_input;
 
 public:
     EUIController(float text_size,float x, float y, float width, float height, std::string text);

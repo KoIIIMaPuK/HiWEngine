@@ -4,11 +4,11 @@
 //
 // +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 #include <iostream>
-#include <iostream>
 #include <cstdlib>
-#include <map>
 #include <vector>
 #include <list>
+#include <map>
+
 #include <conio.h>
 
 
