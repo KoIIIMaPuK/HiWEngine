@@ -1,1 +1,16 @@
+# Visual Studio
 .vs/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.tlog/
+*.log
+*.idb
+*.pdb
+*.ilk
+*.ncb
+*.opendb
+*.aps
+*.pch
+*.vscode/
