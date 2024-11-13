@@ -18,7 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="EActor.cpp">
+=======
+<<<<<<< HEAD
+    <ClCompile Include="Menu.cpp">
+=======
+    <ClCompile Include="EInputController.cpp">
+>>>>>>> ef7dd52418383bc864df69ad6c48a66ac22f9661
+>>>>>>> dcd83f0ecbebf32836d206374ba7c0eedbeb910c
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,6 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EActor.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

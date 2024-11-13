@@ -4,6 +4,7 @@
 //
 // +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 #include <iostream>
+#include <iostream>
 #include <cstdlib>
 #include <map>
 #include <vector>
@@ -19,6 +20,16 @@
 //
 // +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 #include <SFML/Graphics.hpp>
+
+#include "Menu.h"
+#include <iostream>
+#include <SFML/Audio.hpp>
+#include "EUIController.h"
+using namespace sf;
+using namespace Engine;
+
+
+
 #include <SFML/Network.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
@@ -44,79 +55,8 @@ constexpr unsigned short WINDOW_WIDTH   = 1280;	    // Ширина окна
 
 
 
-
 int main()
 {
-    // ================================================================================================
-    //
-    //  Конфигурация окна и его иконки
-    // 
-    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "HiW Engine"); // Окно
-    sf::Image icon; // Иконка
-    if (!icon.loadFromFile("Images/IconHiwEngine.png")) // Проверяем наличие иконка
-    {
-        std::cerr << "Error: Failed to load icon!" << std::endl;
-        return EXIT_FAILURE;
-    }
-    window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr()); // Устанавливаем иконку
-    //
-    // ================================================================================================
-    
-
-
-    
-    
-
-
-   
-    // ================================================================================================
-    //
-    // Основной игровой цикл
-    //
-    while (window.isOpen())
-    {
-        // События процесса
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            // Закрыть окно: выйти
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
-
-
-
-
-
-
-
-
-
-
-        window.clear(); // Очистить экран
-        window.display();   // Обновить окно
-    }
-    //
-    // ================================================================================================
-   
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
 
     system("pause");
     return EXIT_SUCCESS; // Конец ;) https://www.youtube.com/watch?v=6EXB2Of1zLY

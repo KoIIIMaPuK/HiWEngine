@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿  EActor.cpp
   main.cpp
   Создание кода...
   HiWEngine.vcxproj -> D:\ProjectEngineFolder\HiWEngine\x64\Debug\HiWEngine.exe
+=======
+﻿  main.cpp
+  HiWEngine.vcxproj -> C:\Users\Admin\Desktop\ENGINE\HiWEngine\x64\Debug\HiWEngine.exe
+>>>>>>> dcd83f0ecbebf32836d206374ba7c0eedbeb910c
