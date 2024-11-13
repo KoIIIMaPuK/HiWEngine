@@ -20,19 +20,13 @@
 //
 // +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 #include <SFML/Graphics.hpp>
-
-#include "Menu.h"
-#include <iostream>
 #include <SFML/Audio.hpp>
-#include "EUIController.h"
-using namespace sf;
-using namespace Engine;
-
-
-
 #include <SFML/Network.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
+
+
+
 
 
 
@@ -42,7 +36,7 @@ using namespace Engine;
 //
 // +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 #include "EActor.h"
-
+#include "EUIController.h"
 
 
 // +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-

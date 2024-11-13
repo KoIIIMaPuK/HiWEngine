@@ -115,15 +115,12 @@ sfml-audio-d.lib;sfml-system-d.lib</AdditionalDependencies>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-<<<<<<< HEAD
       <AdditionalLibraryDirectories>D:\C++ Libraries\SFML-2.6.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
-=======
       <AdditionalLibraryDirectories>C:\libraries\SFML-2.6.1\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-audio-d.lib;sfml-graphics-d.lib;
 sfml-window-d.lib;
 sfml-audio-d.lib;sfml-system-d.lib</AdditionalDependencies>
->>>>>>> dcd83f0ecbebf32836d206374ba7c0eedbeb910c
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
@@ -144,12 +141,9 @@ sfml-audio-d.lib;sfml-system-d.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="EActor.cpp" />
-=======
     <ClCompile Include="EInputController.cpp" />
     <ClCompile Include="EUIController.cpp" />
->>>>>>> dcd83f0ecbebf32836d206374ba7c0eedbeb910c
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
   </ItemGroup>
@@ -167,13 +161,10 @@ sfml-audio-d.lib;sfml-system-d.lib</AdditionalDependencies>
     <None Include="sfml-window-d-2.dll" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClInclude Include="EActor.h" />
-=======
     <ClInclude Include="EUIController.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="EInputController.h" />
->>>>>>> dcd83f0ecbebf32836d206374ba7c0eedbeb910c
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
